@@ -51,7 +51,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": true,
-          "border_display_style": 2,
+          "border_display_style": 1,
           "border_hatch_pitch": 0.5,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
@@ -77,7 +77,40 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|120535000|85455000|7e54d54c-5336-48b0-b0a2-daf02a349b1e|e7917ceb-19db-4eb9-a10f-81dbd26020dd",
+          ""
+        ],
+        [
+          "courtyards_overlap|131905000|80155000|7e54d54c-5336-48b0-b0a2-daf02a349b1e|c6e26ace-e39e-4679-9434-b5250ec37105",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|132470000|47480000|00000000-0000-0000-0000-00005a793e9f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|100000000|81900000|e7760343-1bc1-4276-98d8-48a16a705580|5da1995c-a9db-4ffc-ac31-928c43fd664f",
+          ""
+        ],
+        [
+          "silk_edge_clearance|100000000|91100000|e7760343-1bc1-4276-98d8-48a16a705580|d2a024b7-1e08-4a7a-b979-91d115cb4ae7",
+          ""
+        ],
+        [
+          "silk_overlap|120754819|92410000|80b197e9-f53e-4780-bb6b-35134e4c86c1|ce4859c0-0aa9-4f9d-9bfa-f2e314baa669",
+          ""
+        ],
+        [
+          "silk_overlap|120910000|92350068|7efa780b-f033-4faa-904f-ebbd0a4538c4|ce4859c0-0aa9-4f9d-9bfa-f2e314baa669",
+          ""
+        ],
+        [
+          "silk_overlap|158247819|59358333|b1790f77-965c-4cb1-b47a-ee6b4cc5fc59|cbef5009-3d75-4774-b2d5-683a449af349",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
